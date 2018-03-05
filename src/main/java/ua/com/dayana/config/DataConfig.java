@@ -24,7 +24,7 @@ public class DataConfig {
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost/sneakers");
+        dataSource.setUrl("jdbc:mysql://localhost/store");
         dataSource.setUsername("root");
         dataSource.setPassword("Selenium2015DreamTest");
         return dataSource;
